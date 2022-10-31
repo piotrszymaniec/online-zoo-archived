@@ -1,0 +1,51 @@
+section.watch-favorite-animal {
+  height: 780px;
+  background-image: url(/assets/images/photo-giant-panda.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position: top -80px left 0px;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 1160px;
+}
+
+.wrapper-watch {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 86px;
+}
+.big-text {
+  width: 500px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 106px;
+  line-height: 75%;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 60px;
+  z-index: 0;
+}
+
+.highlighted-text {
+  color: #FFEE2E;
+}
+.big-text:before {
+  content: "";
+  width: 465px;
+  height: 465px;
+  position: absolute;
+  background-color: #F9804B;
+  border-radius: 100%;
+  z-index: -1;
+  top: 92px;
+  right: 329px;
+}
+
+.watch-online {
+  margin-right:100px;
+}

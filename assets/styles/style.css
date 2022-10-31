@@ -48,13 +48,20 @@ nav {
   margin-left: auto;
 }
 
-.button-round, .button-square {
+.button:hover {
+  background-color: #E47209;
+}
+
+.button {
+  cursor: pointer;
   width: 298px;
   height: 54px;
+  line-height: 54px;
   background-color: #FE9013;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-transform: uppercase;
 }
 
 .button-round {
