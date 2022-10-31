@@ -47,3 +47,16 @@ nav {
 .nav-designer {
   margin-left: auto;
 }
+
+.button-round, .button-square {
+  width: 298px;
+  height: 54px;
+  background-color: #FE9013;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-round {
+  border-radius: 27px;
+}
