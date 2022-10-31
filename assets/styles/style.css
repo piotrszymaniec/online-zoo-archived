@@ -40,7 +40,8 @@ nav {
   margin-right: 54px;
 }
 .nav-menu a:hover,
-.nav-designer a:hover {
+.nav-designer a:hover,
+.active {
   color: #F9804B;
 }
 .nav-designer {
