@@ -49,3 +49,56 @@ section.watch-favorite-animal {
 .watch-online {
   margin-right:100px;
 }
+
+section.how-it-works {
+  height: 620px;
+  background-image: url(/assets/images/flower_foto1.png);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+section.gallery {
+  height: 1212px;
+  background-image: url(/assets/images/bg-photo-palm.png), url(/assets/images/bg-photo-strelitzia.png);
+  background-position: left 0 bottom 0, right 0 bottom 0;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 20px;
+}
+
+.card {
+  width: 365px;
+  border: 1px solid #FA6F32;
+  border-radius: 5px;
+}
+
+.card-image img {
+  width: 365px;
+  height: 365px;
+  background-color: gray;
+}
+.card-footer {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-icon {
+  padding-right:12px;
+}
+.card-content {
+  padding-left: 16px;
+  /* padding-top: 8px;
+  padding-bottom: 14px; */
+}
+.card-title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.card-description {
+  font-size: 15px;
+}
