@@ -24,6 +24,8 @@ nav {
   margin-right: 63px;
   border-radius: 2px;
   text-align: center;
+  border: 1px solid white;
+  border-radius: 2px;
   background-image: url(/assets/images/logo-bamboo.svg);
   background-repeat: no-repeat;
   background-position: bottom 8px left 8px;
