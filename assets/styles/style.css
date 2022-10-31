@@ -39,6 +39,10 @@ nav {
 .nav-menu a {
   margin-right: 54px;
 }
+.nav-menu a:hover,
+.nav-designer a:hover {
+  color: #F9804B;
+}
 .nav-designer {
   margin-left: auto;
 }
