@@ -167,3 +167,44 @@ section.pets {
 .card-description {
   font-size: 15px;
 }
+
+
+section.pick-a-friend {
+  height: 1004px;
+  background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+.title {
+  font-size:48px;
+  text-align: center;
+}
+.pick-a-friend-wrapper {
+padding-top: 69px;
+padding-bottom: 100px;
+}
+.pick-a-friend-container .text-container {
+
+}
+.pick-a-friend-container {
+  background-color: white;
+  border-radius:10px;
+    padding: 1px 100px;
+}
+.pick-cards-container {
+  display: flex;
+}
+.pick-cards-container .step {
+  width: 168px;
+  height: 244px;
+
+}
+.pick-cards-container .arrow {
+
+  padding-top:20px;
+  width: 130px;
+  height: 244px;
+}
+
+.pick-cards-container .arrow img {
+  margin-top: 50px;
+}
