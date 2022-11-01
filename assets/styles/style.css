@@ -86,7 +86,10 @@ footer .wrapper {
   margin: 0 auto;
   width: 1160px;
 }
-
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+}
 .social-media ul {
   padding: 0;
 }
@@ -97,4 +100,18 @@ footer .wrapper {
   list-style: none;
   display:flex;
   align-items: center;
+  margin-bottom:10px;
+}
+
+.nav-menu-footer {
+  align-items: center;
+  width: 600px;
+  display: flex;
+  gap: 58px;
+}
+.nav-menu-footer a:hover {
+  color: #F9804B;
+}
+.subscribe {
+  width: 367px;
 }
