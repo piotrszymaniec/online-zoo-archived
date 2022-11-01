@@ -80,7 +80,7 @@ section.backstage {
   margin:0;
   line-height: 130%;
 }
-.backstage-wrapper .subtitle {
+.subtitle {
   font-size:24px;
 }
 section.pets {
@@ -177,6 +177,7 @@ section.pick-a-friend {
 .title {
   font-size:48px;
   text-align: center;
+  color: #FE9013;
 }
 .pick-a-friend-wrapper {
 padding-top: 69px;
@@ -188,10 +189,27 @@ padding-bottom: 100px;
 .pick-a-friend-container {
   background-color: white;
   border-radius:10px;
-    padding: 1px 100px;
+  padding: 1px 100px;
+  height: 835px;
 }
+.how-it-works-container {
+  text-align: center;
+  /* margin-top: 71px; */
+  gap: 35px;
+  flex-direction: column;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+h3 {
+  font-size: 36px;
+  font-weight: normal;
+}
+
 .pick-cards-container {
   display: flex;
+  justify-content: center;
+
 }
 .pick-cards-container .step {
   width: 168px;
@@ -207,4 +225,9 @@ padding-bottom: 100px;
 
 .pick-cards-container .arrow img {
   margin-top: 50px;
+}
+
+
+section.testimonials {
+  height: 919px;
 }
