@@ -1,6 +1,6 @@
 section.watch-favorite-animal {
   height: 780px;
-  background-image: url(/assets/images/photo-giant-panda.png);
+  background-image: url(./assets/images/photo-giant-panda.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -52,7 +52,7 @@ section.watch-favorite-animal {
 
 section.backstage {
   height: 620px;
-  background-image: url(/assets/images/bg_photo-flower.png);
+  background-image: url(./assets/images/bg_photo-flower.png);
   background-position: right 0 top 0px;
   background-repeat: no-repeat;
   margin-top: -70px;
@@ -86,7 +86,7 @@ section.backstage {
 section.pets {
   height: 1110px;
   margin-top: 90px;
-  background-image: url(/assets/images/bg-photo-palm.png), url(/assets/images/bg-photo-strelitzia.png);
+  background-image: url(./assets/images/bg-photo-palm.png), url(./assets/images/bg-photo-strelitzia.png);
   background-position: left 0 bottom 0, right 0 bottom 0;
   background-repeat: no-repeat, no-repeat;
 }
