@@ -67,3 +67,34 @@ nav {
 .button-round {
   border-radius: 27px;
 }
+.button-square {
+  border-radius: 5px;
+}
+footer {
+  color: white;
+  height: 443px;
+  background-color: black;
+}
+footer .nav-logo p {
+  font-size: 19px;
+  font-weight: 400;
+  margin: 0;
+  padding: 4.5px 3.50px;
+}
+
+footer .wrapper {
+  margin: 0 auto;
+  width: 1160px;
+}
+
+.social-media ul {
+  padding: 0;
+}
+.social-media ul li .social-icon {
+  margin-right: 10px;
+}
+.social-media ul li {
+  list-style: none;
+  display:flex;
+  align-items: center;
+}
